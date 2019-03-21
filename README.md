@@ -31,7 +31,7 @@ this experiment is based on: Mikel Artetxe, Gorka Labaka, and Eneko Agirre. 2018
 1. download [data](https://github.com/artetxem/vecmap/blob/master/get_data.sh) 
 2. run:
 ```
-python map_embeddings_latent.py <path/to/src> <path/to/trg> <src_language_name> <trg_language_name> -hem
+python map_embeddings_naa.py --unsupervised <path/to/input_src> <path/to/input_trg> <path/to/output_src> <path/to/output_trg> -hem
 ```
 3. evaluation is done with [vecmap](https://github.com/artetxem/vecmap) 
 
