@@ -46,3 +46,18 @@ William  L  Hamilton,  Jure  Leskovec,  and  Dan  Juraf-sky. 2016.
 # Publications
 If you use this software for academic research, please cite the relevant paper:
 
+@article{DBLP:journals/corr/abs-1903-10238,
+  author    = {Noa Yehezkel Lubin and
+               Jacob Goldberger and
+               Yoav Goldberg},
+  title     = {Aligning Vector-spaces with Noisy Supervised Lexicons},
+  journal   = {CoRR},
+  volume    = {abs/1903.10238},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1903.10238},
+  archivePrefix = {arXiv},
+  eprint    = {1903.10238},
+  timestamp = {Mon, 01 Apr 2019 14:07:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-10238},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
