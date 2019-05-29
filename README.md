@@ -45,7 +45,7 @@ William  L  Hamilton,  Jure  Leskovec,  and  Dan  Juraf-sky. 2016.
 
 # Publications
 If you use this software for academic research, please cite the relevant paper:
-
+```
 @article{DBLP:journals/corr/abs-1903-10238,
   author    = {Noa Yehezkel Lubin and
                Jacob Goldberger and
@@ -61,3 +61,4 @@ If you use this software for academic research, please cite the relevant paper:
   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-10238},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+```
