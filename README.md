@@ -46,19 +46,18 @@ William  L  Hamilton,  Jure  Leskovec,  and  Dan  Juraf-sky. 2016.
 # Publications
 If you use this software for academic research, please cite the relevant paper:
 ```
-@article{DBLP:journals/corr/abs-1903-10238,
-  author    = {Noa Yehezkel Lubin and
-               Jacob Goldberger and
-               Yoav Goldberg},
-  title     = {Aligning Vector-spaces with Noisy Supervised Lexicons},
-  journal   = {CoRR},
-  volume    = {abs/1903.10238},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1903.10238},
-  archivePrefix = {arXiv},
-  eprint    = {1903.10238},
-  timestamp = {Mon, 01 Apr 2019 14:07:37 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-10238},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{yehezkel-lubin-etal-2019-aligning,
+    title = "Aligning Vector-spaces with Noisy Supervised Lexicon",
+    author = "Yehezkel Lubin, Noa  and
+      Goldberger, Jacob  and
+      Goldberg, Yoav",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N19-1045",
+    pages = "460--465",
+    abstract = "The problem of learning to translate between two vector spaces given a set of aligned points arises in several application areas of NLP. Current solutions assume that the lexicon which defines the alignment pairs is noise-free. We consider the case where the set of aligned points is allowed to contain an amount of noise, in the form of incorrect lexicon pairs and show that this arises in practice by analyzing the edited dictionaries after the cleaning process. We demonstrate that such noise substantially degrades the accuracy of the learned translation when using current methods. We propose a model that accounts for noisy pairs. This is achieved by introducing a generative model with a compatible iterative EM algorithm. The algorithm jointly learns the noise level in the lexicon, finds the set of noisy pairs, and learns the mapping between the spaces. We demonstrate the effectiveness of our proposed algorithm on two alignment problems: bilingual word embedding translation, and mapping between diachronic embedding spaces for recovering the semantic shifts of words across time periods.",
 }
 ```
